@@ -1,0 +1,23 @@
+
+######
+
+POST http://localhost:8080/aadhithya/register HTTP/1.1
+Content-Type: application.json
+
+{
+    "firstname" : "Thangapandian",
+    "lastname" : "Perumal",
+    "email" : "prthangapandian13@gmail.com",
+    "password" : 12345
+}
+
+#####
+
+POST http://localhost:8080/aadhithya/login HTTP/1.1
+Content-Type: application.json
+
+{
+    "email" : "abc@gmail.com",
+    "password" : "abc",
+}
+   {/* "password" : "$2a$10$zij.fHQqtiOf7AQjz.5q1ePd8ghzoIeE6ICSgBORpHoti.2il48nK" */}

@@ -1,0 +1,23 @@
+
+######
+
+POST http://localhost:3000/registration HTTP/1.1
+Content-Type: application.json
+
+{
+    "firstname" : "Thangapandian",
+    "lastname" : "Perumal",
+    "email" : "prthangapandian10@gmail.com",
+    "password" : 12345,
+    "confirmpassword" : 12345
+}
+
+#####
+
+POST http://localhost:3000/login HTTP/1.1
+Content-Type: application.json
+
+{
+    "email" : "abc@gmail.com",
+    "password" : "abc"
+}
